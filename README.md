@@ -1,1 +1,1 @@
-# Changes slider 
+# Changes Slider 
