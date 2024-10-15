@@ -1,5 +1,43 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5px;
+}
+.wrapper{
+    max-width: 1200px;
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.gallery .image{
+    width: calc(100% /4);
+    padding: 5px;
+}
+
+.gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+    transition: all 0,5s ease;
+}
+
+.gallery .image:hover img{
+    transform: scale(1.1);
 }
