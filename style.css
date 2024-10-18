@@ -17,8 +17,7 @@ body{
 
 .gallery{
     display: flex;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;  
 }
 
 span{
@@ -40,4 +39,16 @@ span{
 
 .gallery .image:hover img{
     transform: scale(1.1);
+}
+
+@media(max-width:1000px){
+    .gallery .image{
+        width: calc(100% /2);
+    }
+}
+@media(max-width: 600px){
+    .gallery .image{
+        width:100%;
+        padding: 5px;
+    }
 }
