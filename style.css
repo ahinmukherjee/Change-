@@ -1,3 +1,273 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5px;
+}
+.wrapper{
+    max-width: 1200px;
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.gallery .image{
+    width: calc(100% /4);
+    padding: 5px;
+}
+
+.gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+    transition: all 0,5s ease;
+}
+
+.gallery .image:hover img{
+    transform: scale(1.1);
+}
+
+.prereview_box{
+    position: fixed;
+    max-width: 700px;
+    /* max-height: 500px; */
+    width: auto;
+    height: 100%;
+    top: 45%;
+    left: 50%;
+    padding: 0 5px 5px 5px;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    background: red;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px 12px 10px;
+}
+
+.img-box{
+    display: flex;
+    width: 100%;
+}
+.img-box img{ 
+    width: 100%;
+}
+
+@media(max-width:1000px){
+    .gallery .image{
+        width: calc(100% /3);
+    }
+}
+@media(max-width: 600px){
+    .gallery .image{
+        width: calc(100% /2);
+    }
+}
+@media(max-width: 450px){
+    .gallery .image{
+        width:100%;
+        padding: 5px;
+    }
+}
+
+/* hjkhkjkmmnkj */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5px;
+}
+.wrapper{
+    max-width: 1200px;
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.gallery .image{
+    width: calc(100% /4);
+    padding: 5px;
+}
+
+.gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+    transition: all 0,5s ease;
+}
+
+.gallery .image:hover img{
+    transform: scale(1.1);
+}
+
+.prereview_box{
+    position: fixed;
+    max-width: 700px;
+    /* max-height: 500px; */
+    width: auto;
+    height: 100%;
+    top: 45%;
+    left: 50%;
+    padding: 0 5px 5px 5px;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    background: red;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px 12px 10px;
+}
+
+.img-box{
+    display: flex;
+    width: 100%;
+}
+.img-box img{ 
+    width: 100%;
+}
+
+@media(max-width:1000px){
+    .gallery .image{
+        width: calc(100% /3);
+    }
+}
+@media(max-width: 600px){
+    .gallery .image{
+        width: calc(100% /2);
+    }
+}
+@media(max-width: 450px){
+    .gallery .image{
+        width:100%;
+        padding: 5px;
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5px;
+}
+.wrapper{
+    max-width: 1200px;
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.gallery .image{
+    width: calc(100% /4);
+    padding: 5px;
+}
+
+.gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+    transition: all 0,5s ease;
+}
+
+.gallery .image:hover img{
+    transform: scale(1.1);
+}
+
+.prereview_box{
+    position: fixed;
+    max-width: 700px;
+    /* max-height: 500px; */
+    width: auto;
+    height: 100%;
+    top: 45%;
+    left: 50%;
+    padding: 0 5px 5px 5px;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    background: red;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px 12px 10px;
+}
+
+.img-box{
+    display: flex;
+    width: 100%;
+}
+.img-box img{ 
+    width: 100%;
+}
+
+@media(max-width:1000px){
+    .gallery .image{
+        width: calc(100% /3);
+    }
+}
+@media(max-width: 600px){
+    .gallery .image{
+        width: calc(100% /2);
+    }
+}
+@media(max-width: 450px){
+    .gallery .image{
+        width:100%;
+        padding: 5px;
+    }
+}
+
+
 *{
     margin: 0;
     padding: 0;
