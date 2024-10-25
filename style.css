@@ -89,6 +89,32 @@ span{
     border-radius: 0 0 3px 3px;
 }
 
+.full_img{
+    width: 1450px;
+    height: 1000px;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.full_img .img{
+    width: 500px;
+    height: 500px;
+    /* max-width: 500px; */
+    display: none;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+/* .full_img .img img{
+    width: 75%;
+} */
+
 @media(max-width:1000px){
     .gallery .image{
         width: calc(100% /3);
